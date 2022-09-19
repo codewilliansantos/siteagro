@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #0a9164;
+    color: aliceblue;
+}
+
+header h1 {
+    font-size: 26px;
+    margin-left: 16px;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 16px;
+    font-size: 20px;
+}
+
+header nav li a {
+    color: aliceblue;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.container img{
+    width: 100%;
+}
+
+.container {
+    width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+.container p {
+    font-family: 'DM Sans', sans-serif;
+    margin: 10px 0px 10px 0px;
+}
+
+.container h2 {
+    font-family: CSS rules to specify families;
+    margin-left: 16px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.articles{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-right: 16px;
+    
+}
+
+.articles article {
+    width: 25%;
+   
+}
+
+section .container .contacts {
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: #d6ece4;
+}
+
+.contacts contact {
+    width: 100%;
+}
+
+section .container .abouts{
+    margin-left: 16px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+footer {
+    padding: 10px;
+    background-color: #0a9164;
+    color: aliceblue;
+    font-size: 20px;
+}
